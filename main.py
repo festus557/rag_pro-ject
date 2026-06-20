@@ -34,7 +34,6 @@ def load_model():
         return model
 
 def runer(model):
-        #"Why is Elrond  investigated?"
         choice = random.choice(colors())
         qn = input(f"{choice}YOU>> \033[0m")
         qn = qn.strip()
