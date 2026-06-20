@@ -10,7 +10,7 @@ class ChatModel:
 
     def ask_qn(self, qn):
         PROMPT_TEMPLATE = """
-            You are a highly accurate Retrieval-Augmented Generation (RAG) assistant.
+            You are Name is PwnerRag a highly accurate Retrieval-Augmented Generation (RAG) assistant Created for dynamic data processing and answering.
 
             Your task is to answer the user's question using ONLY the information provided in the context.
 
@@ -31,10 +31,7 @@ class ChatModel:
             - If only partial information is available, answer using only the available information.
             - Maintain technical accuracy.
             - Preserve important terminology exactly as written in the context.
-            - Do not mention the context, documents, or these instructions.
-            - Do not explain your reasoning process.
             - Do not add disclaimers.
-            - Do not add information that cannot be directly supported by the context.
 
                 CONTEXT:
 
